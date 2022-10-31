@@ -1,13 +1,11 @@
 :root {
-    --font-ral: font-family: 'Raleway',
-        sans-serif;
     --text-color-secondary: #757575;
     --color-hover: #2196F3;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;   
+    color: #212121; 
 }
 
 .header {
@@ -15,12 +13,17 @@ body {
 }
 
 .header-logo {
-    font-family: var(--font-ral);
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;
+    line-height: 1.19;
     letter-spacing: 0.03em;    
     color: #000000;
+    text-decoration: none;
+}
+
+.logo-color {
+    color: #2196F3;
 }
 
 /* .header-nav {
@@ -30,7 +33,7 @@ body {
 .header-nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1428;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -42,9 +45,13 @@ body {
 .header-contact {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1428;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+}
+
+.link {
+    text-decoration: none;
 }
 
 a:hover,
@@ -68,6 +75,7 @@ a:focus {
 }
 
 .hero-button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;     
@@ -90,7 +98,7 @@ a:focus {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1667;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -102,7 +110,7 @@ h2 {
 .benefits-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1428;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -125,14 +133,14 @@ h2 {
 .member-team {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .speciality-member-team {
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color-secondary);
@@ -143,15 +151,17 @@ h2 {
 }
 
 .footer-logo {
-    font-family: var(--font-ral);
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .footer-contact {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -165,28 +175,27 @@ h2 {
 /* Стиль Портфоліо */
 
 .portfolio {
-    background: #F5F5F5;
+    background: #FFFFFF;
 }
 
 /* Фільтр проєктів */
 
-.filter-projects {
+.filter-button-projects {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    color: inherit;
+    background: #F5F4FA;
+    border: none;
 }
 
 .filter-button-projects:hover,
 .filter-button-projects:focus {
     background: #2196F3;
     color: #FFFFFF;
-    border: none;
-}
-
-.filter-button-projects {
-    background: #F5F4FA;
     border: none;
 }
 
